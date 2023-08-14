@@ -1,15 +1,22 @@
 # Getting Started with WebRTC web application
 
-Clone this repository in your local machine.
+Clone this repository in your local machine using git clone {URL}
 
-## Available Scripts
+Then using the command line go to the cloned project directory.
 
-In the project directory, you can run:
+Start your localhost on the desired port using:
 
-### `npm start`
+### node server.js
 
+Then, tunnel your localhost on the internet using Serveo. Run the command:
 
-### `npm run build`
+### ssh -R 80:localhost:8080 serveo.net
+
+Copy the forwarding link and move src/app.js and paste it into this.serviceIP
+
+In the project directory, build the app using:
+
+### npm run build
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
