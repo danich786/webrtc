@@ -12,16 +12,14 @@ Then, tunnel your localhost on the internet using Serveo. Run the command:
 
 ### ssh -R 80:localhost:8080 serveo.net
 
-Copy the forwarding link and move src/app.js and paste it into this.serviceIP
+Copy the forwarding link and move to src/app.js and paste it into this.serviceIP
 
 In the project directory, build the app using:
 
 ### npm run build
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+It builds the app for production to the `build` folder.
 
-The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
