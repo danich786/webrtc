@@ -1,7 +1,10 @@
+//Including required node modules
+//For more details about these packages
 
-const express = require('express')
 
-var io = require('socket.io')
+const express = require('express') //https://expressjs.com/
+
+var io = require('socket.io') //https://socket.io/
 ({
   path: '/io/webrtc'
 })
