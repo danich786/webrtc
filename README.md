@@ -1,30 +1,25 @@
-# Getting Started with Create React App
+# Getting Started with WebRTC web application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Clone this repository in your local machine using git clone {URL}
 
-## Available Scripts
+Then using the command line go to the cloned project directory.
 
-In the project directory, you can run:
+Start your localhost on the desired port using:
 
-### `npm start`
+### node server.js
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Then, tunnel your localhost on the internet using Serveo. Run the command:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### ssh -R 80:localhost:8080 serveo.net
 
-### `npm test`
+Copy the forwarding link and move to src/app.js and paste it into this.serviceIP
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+In the project directory, build the app using:
 
-### `npm run build`
+### npm run build
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+It builds the app for production to the `build` folder.
 
-The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
