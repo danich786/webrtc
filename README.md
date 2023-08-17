@@ -4,11 +4,11 @@ Clone this repository in your local machine using git clone {URL}
 
 Then using the command line go to the cloned project directory.
 
-Start your localhost on the desired port using:
+Start your local server on the desired port using:
 
 ### node server.js
 
-Then, tunnel your localhost on the internet using Serveo. Run the command:
+Then, tunnel your local server on the internet using Serveo. Run the command:
 
 ### ssh -R 80:localhost:8080 serveo.net
 
