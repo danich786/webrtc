@@ -8,7 +8,7 @@ Start your local server on the desired port using:
 
 ### node server.js
 
-Then, tunnel your local server on the internet using Serveo. Run the command:
+Then, tunnel your local server on the internet using Serveo or ngrok. For Serveo, run the command:
 
 ### ssh -R 80:localhost:8080 serveo.net
 
